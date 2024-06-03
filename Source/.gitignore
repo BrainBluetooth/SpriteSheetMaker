@@ -4,17 +4,13 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # User-specific files
-*.rsuser
 *.suo
 *.user
 *.userosscache
 
 # Build results
-[Dd]ebug/
-[Rr]elease/
-[Rr]eleases/
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
 [Ll]og/
 [Ll]ogs/
 
@@ -23,11 +19,6 @@
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
-
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
 
 # Files built by Visual Studio
 *.meta
@@ -41,20 +32,6 @@ artifacts/
 # Click-Once directory
 publish/
 
-# NuGet Packages
-*.nupkg
-# NuGet Symbol Packages
-*.snupkg
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/[Pp]ackages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
-*.nuget.props
-*.nuget.targets
-
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
@@ -62,11 +39,6 @@ publish/
 !?*.[Cc]ache/
 
 # Others
-ClientBin/
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.pfx
 *.publishsettings
 
 # Backup & report files from converting an old project file
